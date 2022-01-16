@@ -10,11 +10,28 @@ body {
   font-family: "Poppins", sans-serif;
   background-color: #ffffff;
 }
+/*-------------------------------
+-----common used classes----
+---------------------------------*/
 .container {
   max-width: 1200px;
   margin: 0 auto;
   padding: 0 30px;
 }
+
+.primary-button {
+  outline: 0;
+  border: 0;
+  padding: 15px 20px;
+  background-color: #2d324b;
+  border-radius: 20px;
+  color: #ffffff;
+  font-weight: 600;
+}
+
+/*-------------------------------
+-----main heading and nav bar----
+---------------------------------*/
 
 nav {
   display: flex;
@@ -35,6 +52,11 @@ nav {
   font-weight: 500;
   color: #3a3a3a;
 }
+
+/*-------------------------------
+-----First Section Starts Here----
+---------------------------------*/
+
 .first-sec {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
@@ -66,15 +88,13 @@ nav {
   background-repeat: no-repeat;
 }
 
-.primary-button {
-  outline: 0;
-  border: 0;
-  padding: 15px 20px;
-  background-color: #2d324b;
-  border-radius: 20px;
-  color: #ffffff;
-  font-weight: 600;
-}
+/*-------------------------------
+-----First Section Ends Here----
+---------------------------------*/
+
+/*-------------------------------
+-----Second Section Starts Here----
+---------------------------------*/
 
 .section-title {
   text-align: center;
@@ -97,6 +117,7 @@ nav {
   padding-left: 172px;
   padding-right: 180px;
 }
+
 .product {
   background-color: #ffffff;
   border-radius: 5px;
@@ -123,6 +144,15 @@ nav {
 .product .four {
   color: #eeeceb;
 }
+
+/*-------------------------------
+-----Second Section Ends Here----
+---------------------------------*/
+
+/*-------------------------------
+-----Third Section starts Here----
+---------------------------------*/
+
 .last-sec {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
@@ -142,7 +172,7 @@ nav {
   justify-content: center;
 }
 .last-sec-right p {
-  font-weight: 600;
+  font-weight: 400;
   color: #3a3a3a;
   margin-bottom: 10px;
 }
@@ -159,6 +189,15 @@ nav {
   margin-right: 25px;
   width: 300px;
 }
+
+/*-------------------------------
+-----First Section Ends Here----
+---------------------------------*/
+
+/*-------------------------------
+-------------Footer---------------
+---------------------------------*/
+
 footer {
   height: 150px;
   background-color: #0a0826;
@@ -172,7 +211,3 @@ footer {
 .fab {
   padding-right: 10px;
 }
-
-/*---------------------
---------form here------
--------------------*/
